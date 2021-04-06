@@ -1,0 +1,60 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    /* padding: 20px; */
+    border: none;
+    border-radius: 50%;
+    background-color: #ecf0f1;
+    box-shadow: 4px 5px 19px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 5px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 5px 19px 0px rgba(0,0,0,0.75);
+  }
+  i{
+      padding: 22px;
+  }
+
+  .main{
+      width: 100;
+      min-height: 100vh;
+      margin: auto;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .card{
+      width: 30%;
+      margin: auto;
+      padding: 100px 0;
+      text-align: center;
+      border-radius: 20px;
+      background: radial-gradient(100% 225% at 0% 0%, #DE3E3E 0%, #17115C 100%), radial-gradient(100% 225% at 100% 0%, #FF9040 0%, #FF0000 100%), linear-gradient(180deg, #CE63B7 0%, #ED6283 100%), radial-gradient(100% 120% at 75% 0%, #A74600 0%, #000000 100%), linear-gradient(310deg, #0063D8 0%, #16009A 50%);
+background-blend-mode: overlay, color-dodge, color-burn, color-dodge, normal;
+box-shadow: 4px 5px 19px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 4px 5px 19px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 4px 5px 19px 0px rgba(0,0,0,0.75);
+  }
+  .my-audio{
+      width: 100%;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 30px   ;
+  }
+  .my-audio #aud1{
+      width: 80%;
+  }
+  #prev,#play,#next{
+      margin-right: 5px;
+  }
+
+
+
+  @media (max-width:768px) {
+        .card {
+            width: 70%;
+        }
+      
+  }
